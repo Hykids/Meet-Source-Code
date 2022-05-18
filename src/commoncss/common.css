@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  margin-right: calc(100% - 100vw);
+  overflow-x: hidden;
+ 
+  font-family: Roboto,"PingFang SC","Helvetica Neue",Helvetica,STHeiTi,Arial,sans-serif;
+  color: #282828;
+  font-weight: 530;
+}
+.el-button--default {
+  --el-button-text-color: var(--el-text-color-regular);
+  --el-button-hover-text-color: #9ca4cf;
+  --el-button-disabled-text-color: var(--el-text-color-placeholder);
+}
+.el-popover {
+  height: 200px;
+  width: 400px;
+  overflow: scroll;
+  overflow-x: auto;
+}
+/* 表情包 */
+.chatIcon {
+  padding: 0 10px;
+  font-size: 25px;
+}
+.emotionList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.emotionItem {
+  width: 10%;
+  font-size: 20px;
+  text-align: center;
+}
+/*包含以下四种的链接*/
+.emotionItem {
+  text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+.emotionItem:link {
+  text-decoration: none;
+}
+/*已经访问过的链接*/
+.emotionItem:visited {
+  text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+.emotionItem:hover {
+  text-decoration: none;
+}
+/* 正在点击的链接*/
+.emotionItem:active {
+  text-decoration: none;
+}
+/* span{
+  font-size: 10PX;
+  font-family: PingFangSC-Light, PingFang SC;
+  font-weight: 300;
+  color: rgba(68, 68, 68, 1);
+} */
+.tag   {
+  height: 30px;
+  min-width: 35px;
+}
+.el-tag {
+  --el-tag-bg-color:none;
+  --el-tag-border-color:hsl(0, 0%, 100%);
+  border:0.1px solid rgb(207, 207, 233);
+  --el-tag-text-color:  rgb(178, 178, 230);
+ margin-left: 10px;
+ margin-bottom: 5px;
+ font-size: 12px;
+ font-weight: 530;
+}
+.el-button--primary {
+  --el-button-text-color: var(--el-color-white);
+  --el-button-bg-color:rgb(207, 207, 233);
+  --el-button-border-color: rgb(140, 140, 195);
+  --el-button-hover-text-color: hsl(0, 0%, 100%);
+  --el-button-hover-bg-color: rgb(178, 178, 230);
+  --el-button-hover-border-color: rgb(178, 178, 230);
+  --el-button-active-bg-color: rgb(178, 178, 230);
+  --el-button-active-border-color:rgb(178, 178, 230);
+  --el-button-disabled-text-color: var(--el-color-white);
+  --el-button-disabled-bg-color:rgb(178, 178, 230);
+  --el-button-disabled-border-color: rgb(178, 178, 230);
+}
+a{
+  color: #282828;
+}
